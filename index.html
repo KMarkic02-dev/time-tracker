@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timestamp</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+  
+
+    <div class="app">
+      <div class="controls">
+        <div class="category-selects">
+          <select id="category">
+            <option class="nullOption" value="" disabled selected>-- Select Category --</option>
+          </select>
+          <select id="subCategory" disabled></select>
+        </div>
+        <div class="btn-holder">
+          <button id="Start">Start</button>
+          <button id="Stop">Stop</button>
+        </div>
+      </div>
+
+      <h2 id="display" class="timer">00:00:00</h2>
+  </div>
+
+    <div id="list-holder">
+      <h3 class="total">Total: <span id="total">00:00:00</span></h3>
+      <h3 class="list-title">Category | SubCategory | Time on Lesson / Date</h3>
+        <ul id="list">
+          <li></li>
+          
+        </ul>
+      </div>
+
+   
+   <script src="script.js"></script>
+    </body>
+</html>
